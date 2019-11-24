@@ -1,9 +1,9 @@
-import React from 'react'
-import { Steps } from 'antd'
-import styled from 'styled-components'
+import React from "react"
+import { Steps } from "antd"
+import styled from "styled-components"
 
 /* Logo */
-import BigRiverLogo from '../../images/bigriver.jpg'
+import BigRiverLogo from "../../images/bigriver.jpg"
 
 const { Step } = Steps
 
@@ -27,60 +27,47 @@ const CompanyYear = styled.div`
 
 const experiences = [
   {
-    name: 'Safyre Labs',
-    position: 'Fullstack Developer',
-    time: 'Sep 2019 - Now',
-    link: 'https://www.safyrelabs.com'
+    name: "Safyre Labs",
+    position: "Fullstack Developer",
+    time: "Sep 2019 - Now",
+    link: "https://www.safyrelabs.com"
   },
   {
-    name: 'big river technologies inc.',
-    position: 'Software Developer',
-    time: 'Jan 2019 - Apr 2019',
-    link: 'https://bigrivertech.com',
+    name: "big river technologies inc.",
+    position: "Software Developer",
+    time: "Jan 2019 - Apr 2019",
+    link: "https://bigrivertech.com",
     logo: BigRiverLogo
   }
 ]
 
 const Timeline = () => (
   <TimelineWrapper>
-    <Steps
-      direction="vertical"
-      labelPlacement="vertical"
-      current={0}
-    >
-      {experiences.map((c) => (
+    <Steps direction="vertical" labelPlacement="vertical" current={0}>
+      {experiences.map(c => (
         <Step
           key={c.name}
           title={
-            <CompanyName 
-              href={c.link}
-              target="_blank"
-            >
+            <CompanyName href={c.link} target="_blank">
               {c.name}
             </CompanyName>
           }
           description={
             <>
-              <CompanyPosition>
-                {c.position}
-              </CompanyPosition>
-              <CompanyYear>
-                {c.time}
-              </CompanyYear>
+              <CompanyPosition>{c.position}</CompanyPosition>
+              <CompanyYear>{c.time}</CompanyYear>
             </>
           }
           // icon={
-          //   <img 
+          //   <img
           //     src={c.logo}
           //     width={20}
           //     height={20}
           //   />
           // }
         />
-      ))
-      }
+      ))}
     </Steps>
-
   </TimelineWrapper>
 )
 

@@ -27,3 +27,6 @@ yarn-error.log*
 
 # ignore antd css
 /src/styles
+
+# prettier
+.prettierrc

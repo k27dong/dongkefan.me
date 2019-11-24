@@ -1,12 +1,9 @@
-import React from 'react'
-import ReactDom from 'react-dom'
+import React from "react"
+import ReactDom from "react-dom"
 
-import './styles/antd.css'
-// import 'antd/dist/antd.css'
-import './index.css'
+import "./styles/antd.css"
+import "./index.css"
 
-import App from './app/App'
+import App from "./app/App"
 
-ReactDom.render(
-    <App/>, document.getElementById('root')
-)
+ReactDom.render(<App />, document.getElementById("root"))
