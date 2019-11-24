@@ -25,5 +25,7 @@ yarn-error.log*
 # Local Netlify folder
 .netlify
 
-# antd css
-/src/styles/antd.css
+# css
+*.css
+*.css.map
+!font.css
