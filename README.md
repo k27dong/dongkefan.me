@@ -2,4 +2,16 @@
 🏠 [dongkefan.me](https://dongkefan.me)
 
 ## Deploy
-🚀 Powered by <a href="https://www.netlify.com/">netlify</a>
+🚀 Powered by [netlify](https://www.netlify.com/)
+
+## Development
+```
+# install
+$ npm i
+
+# dev
+$ npm start
+
+# build
+$ npm run build
+```
