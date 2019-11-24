@@ -14,6 +14,10 @@ const TimelineWrapper = styled.div`
 const CompanyName = styled.a`
   font-size: 25px;
   color: rgba(255, 255, 255, 0.65);
+
+  @media screen and (max-width: 767px) {
+    font-size: 19px;
+  }
 `
 
 const CompanyPosition = styled.div`

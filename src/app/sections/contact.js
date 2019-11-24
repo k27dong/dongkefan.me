@@ -9,6 +9,7 @@ import * as Constant from "../util/const"
 
 const ContactWrapper = styled.div`
   margin-top: 30px;
+  text-align: center;
 `
 
 const ButtonContainer = styled(Button).attrs({

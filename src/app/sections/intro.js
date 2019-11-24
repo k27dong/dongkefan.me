@@ -10,6 +10,10 @@ const IntroWrapper = styled.div`
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.65);
   font-size: 25px;
+
+  @media screen and (max-width: 767px) {
+    font-size: 17px;
+  }
 `
 
 const finishDelay = 400

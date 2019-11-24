@@ -9,6 +9,10 @@ import Contact from "./sections/contact"
 
 const Container = styled.div`
   padding: 50px 70px;
+
+  @media screen and (max-width: 767px) {
+    padding: 50px 10px;
+  }
 `
 
 const App = () => {
