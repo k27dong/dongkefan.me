@@ -29,6 +29,7 @@ const Intro = ({ onTypistDone = _.noop, type }) =>
         <a
           style={{ color: "dodgerblue" }}
           target="_blank"
+          rel="noopener noreferrer"
           href="https://github.com/k27dong"
         >
           {" "}
@@ -42,6 +43,7 @@ const Intro = ({ onTypistDone = _.noop, type }) =>
           style={{ color: "#FFD54F" }}
           href="https://uwaterloo.ca/future-students/programs/electrical-engineering"
           target="_blank"
+          rel="noopener noreferrer"
         >
           University of Waterloo.
         </a>
@@ -72,6 +74,7 @@ const Intro = ({ onTypistDone = _.noop, type }) =>
           <a
             style={{ color: "dodgerblue" }}
             target="_blank"
+            rel="noopener noreferrer"
             href="https://github.com/k27dong"
           >
             {" "}
@@ -88,6 +91,7 @@ const Intro = ({ onTypistDone = _.noop, type }) =>
             style={{ color: "#FFD54F" }}
             href="https://uwaterloo.ca/future-students/programs/electrical-engineering"
             target="_blank"
+            rel="noopener noreferrer"
           >
             University of Waterloo.
           </a>

@@ -52,7 +52,11 @@ const Timeline = () => (
         <Step
           key={c.name}
           title={
-            <CompanyName href={c.link} target="_blank">
+            <CompanyName
+              href={c.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {c.name}
             </CompanyName>
           }

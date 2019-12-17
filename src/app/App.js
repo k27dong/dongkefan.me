@@ -6,6 +6,7 @@ import { Divider, Button } from "antd"
 import Intro from "./sections/intro"
 import Timeline from "./sections/timeline"
 import Contact from "./sections/contact"
+import Github from "./sections/github"
 
 const Container = styled.div`
   padding: 50px 70px;
@@ -48,6 +49,8 @@ const App = () => {
           <Timeline />
           <Divider />
           <Contact />
+          <Divider />
+          <Github />
         </Fade>
       )}
     </Container>
