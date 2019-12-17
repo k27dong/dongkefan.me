@@ -48,9 +48,9 @@ const App = () => {
         <Fade>
           <Timeline />
           <Divider />
-          <Contact />
-          <Divider />
           <Github />
+          <Divider />
+          <Contact />
         </Fade>
       )}
     </Container>
