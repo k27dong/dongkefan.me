@@ -46,6 +46,7 @@ const App = () => {
       <Intro type={skipFlag} onTypistDone={e => setTypeDone(true)} />
       {typeDone && (
         <Fade>
+          <Divider />
           <Timeline />
           <Divider />
           <Github />

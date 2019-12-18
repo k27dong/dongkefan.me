@@ -11,6 +11,7 @@ const IntroWrapper = styled.div`
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.65);
   font-size: 25px;
+  margin-bottom: 30px;
 
   @media screen and (max-width: 767px) {
     font-size: 17px;
@@ -52,8 +53,6 @@ const Intro = ({ onTypistDone = _.noop, type }) =>
       <span>
         I am {getAge()} years old. Living in Mississauga, ON. Canada.
       </span>{" "}
-      <br /> <br />
-      <span>Experiences:</span>
     </IntroWrapper>
   ) : (
     <IntroWrapper>
@@ -104,12 +103,6 @@ const Intro = ({ onTypistDone = _.noop, type }) =>
           I am {getAge()} years old. Living in Mississauga, ON. Canada.
         </span>
 
-        <Typist.Delay ms={finishDelay} />
-        <br />
-        <Typist.Delay ms={200} />
-        <br />
-        <Typist.Delay ms={beginDelay + 200} />
-        <span>Experiences:</span>
         <Typist.Delay ms={1000} />
       </Typist>
     </IntroWrapper>
