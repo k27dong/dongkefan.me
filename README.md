@@ -1,4 +1,6 @@
 # Personal Website
+my personal website made using React, please hire me
+
 🏠 [dongkefan.me](https://dongkefan.me)
 
 ## Deploy
